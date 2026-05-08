@@ -6,3 +6,4 @@ dataset/**/*.tif
 dataset/**/*.tiff
 dataset/**/*.img
 dataset/**/*.nc
+6_1/**/outputs/

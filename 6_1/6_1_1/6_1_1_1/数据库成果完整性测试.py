@@ -14,7 +14,7 @@ except ImportError as exc:  # pragma: no cover - dependency check
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-DEMAND_DIR = REPO_ROOT / "dataset" / "demand"
+DEMAND_DIR = REPO_ROOT / "dataset" / "products" / "demand"
 CORE_FILE = DEMAND_DIR / "pred_final_pred_masked.tif"
 README_FILE = DEMAND_DIR / "README.md"
 METADATA_FILE = DEMAND_DIR / "metadata.json"
