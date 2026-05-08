@@ -7,4 +7,4 @@
 本地数据文件包括：
 
 - `Global_5G_Radiation_Map_60arcsec.tif`
-- `Global_5G_Radiation_Map_60arcsec_aligned_30arcsec.tif`
+
