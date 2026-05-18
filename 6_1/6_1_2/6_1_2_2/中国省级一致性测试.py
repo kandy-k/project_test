@@ -17,9 +17,9 @@ from scipy.stats import pearsonr, spearmanr
 REPO_ROOT = Path(__file__).resolve().parents[3]
 SCRIPT_DIR = Path(__file__).resolve().parent
 PRED_TIF = REPO_ROOT / "dataset" / "products" / "demand" / "pred_final_pred_masked.tif"
-INPUT_ROOT = REPO_ROOT / "dataset" / "validation" / "china_province"
+INPUT_ROOT = REPO_ROOT / "dataset" / "validation"
 BOUNDARY_DIR = INPUT_ROOT / "boundaries"
-TRUTH_DIR = INPUT_ROOT / "truth"
+TRUTH_DIR = INPUT_ROOT / "truth" / "china_province"
 OUTPUT_DIR = SCRIPT_DIR / "outputs"
 
 BOUNDARY_SUFFIXES = {".gpkg", ".shp", ".geojson"}
