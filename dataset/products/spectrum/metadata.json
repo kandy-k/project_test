@@ -1,0 +1,22 @@
+{
+  "dataset_name": "spectrum",
+  "version": "v1.0",
+  "primary_file": "Global_5G_Radiation_Map_60arcsec.tif",
+  "format": "GTiff",
+  "crs": "EPSG:4326",
+  "width": 21600,
+  "height": 8400,
+  "band_count": 1,
+  "dtype": "float32",
+  "nodata": "NaN",
+  "bounds": {
+    "left": -180.0,
+    "bottom": -65.0,
+    "right": 180.0,
+    "top": 75.0
+  },
+  "resolution": {
+    "x": 0.016666666666666666,
+    "y": 0.016666666666666666
+  }
+}
